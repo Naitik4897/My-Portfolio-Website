@@ -723,6 +723,27 @@ footer{
     width: 90%;
   }
 
+  /* Make hero image mobile responsive */
+  .user-image {
+    padding: 1rem;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .user-image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
   .project-card {
     height: 400px;
     margin-left: 0 !important;
